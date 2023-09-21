@@ -1,0 +1,147 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+ #title > .container {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.btn1 {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+}
+
+.btn1:hover {
+  background-color: gray;
+  border: 1px solid gray;
+}
+
+.btn2 {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: black;
+}
+
+#testimonial > .container{
+  width: 100%;
+  max-width: 100%;
+  padding: 3rem;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#testimonial .text {
+  font-size: calc(1.325rem + .9vw);
+  font-weight: 500;
+  text-align: center;
+}
+
+#testimonial > .container > div {
+  margin: 20px;
+}
+
+.photo > img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.marks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.marks > img {
+  height: 30px;
+  margin: 10px;
+}
+
+.btn3 {
+  color: #212529;
+  border: 1px solid #212529;
+}
+
+.btn3:hover {
+  color: white;
+  background-color: #212529 !important;
+  border:1px solid #212529;
+}
+
+.btn4,.btn5 {
+  color: white;
+  background-color: #212529;
+  border: 1px solid #212529;
+}
+
+.btn4:hover,.btn5:hover {
+  background-color: #464646;
+  border:1px solid #464646;
+}
+
+.mastiff {
+  border: 1px solid #212529 !important;
+}
+
+.mastiffinside {
+  background-color: #212529 !important;
+}
+
+#footer > .container {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+@media (min-width: 930px) {
+  #title > .container > .row{
+    margin-right: 14vw !important;
+    margin-left: 14vw !important;
+  } 
+}
+
+@media (max-width: 900px) {
+  .marks {
+    flex-direction: column;
+    width: 200px;
+  }
+}
+
+@media (max-width: 420px) {
+  #title > .container {
+    padding-bottom: 10px;
+  } 
+}
